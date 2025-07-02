@@ -14,7 +14,7 @@ cask "kdeconnect" do
     regex(/href=.*?kdeconnect[._-]kde[._-]master[._-]v?(\d+(?:\.\d+)*)[._-]macos[._-]clang[._-]#{arch}\.dmg/i)
   end
 
-  depends_on macos: :monterey
+  depends_on macos: ">= :monterey"
 
   app "KDE Connect.app"
 
