@@ -1,7 +1,7 @@
 cask "kdeconnect" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "5161"
+  version "5168"
   sha256 :no_check
 
   url "https://cdn.kde.org/ci-builds/network/kdeconnect-kde/master/macos-#{arch}/kdeconnect-kde-master-#{version}-macos-clang-#{arch}.dmg"
